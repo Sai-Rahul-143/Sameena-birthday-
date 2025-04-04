@@ -9,7 +9,7 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Pacifico', cursive;
+      font-family: 'Dancing Script', cursive;
       background-image: url('https://sai-rahul-143.github.io/Sameena-birthday-/surprise-background.jpg');
       background-size: cover;
       background-position: center;
@@ -100,7 +100,7 @@
   </div> 
   <canvas id="fireworks"></canvas> 
   <div class="container"> 
-   <h1>Happy Birthday, Sameena 🫂🩵</h1> 
+   <h1>🎈 Happy Birthday Sameena ! 🩵</h1> 
    <p> My sister from another mother — may your year be filled with happiness 😄, surprises 🎉, and everything you truly deserve in this universe. </p> 
    <p> You are a blessing to everyone around you 🌟. Cheers to more adventures, more success, and endless happiness! </p> 
    <p> I feel so good talking to you and sharing our daily stories and random chats 💬. Getting a sister like you is a blessing from God, and I’m forever grateful for it! </p> 
@@ -110,6 +110,8 @@
    <source src="https://sai-rahul-143.github.io/Sameena-birthday-/sister-birthday-bgm.mp3" type="audio/mpeg"> Your browser does not support the audio element. 
   </audio> 
   <script>
+    document.querySelector("audio").volume = 0.3;
+    
     const canvas = document.getElementById('fireworks');
     const ctx = canvas.getContext('2d');
     canvas.width = window.innerWidth;
